@@ -184,28 +184,8 @@ footer{
     min-height: 120px;
 }
 
- .index-cv-pdf i{
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
- .resume-cv-pdf i{
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
+ .index-cv-pdf i,
+ .resume-cv-pdf i,
  .contact-cv-pdf i{
     font-size: 18px;
     color: #fafafa;
@@ -229,50 +209,14 @@ footer{
     color: #3498db;
 }
 
-.index-social-links{
-    padding-bottom: 15px;
-}
-
-.index-social-links li a i{
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.resume-social-links{
-    padding-bottom: 15px;
-}
-
-.resume-social-links li a i{
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
+.index-social-links,
+.resume-social-links,
 .contact-social-links{
     padding-bottom: 15px;
 }
 
+.index-social-links li a i,
+.resume-social-links li a i,
 .contact-social-links li a i{
     width: 32px;
     height: 32px;
@@ -288,8 +232,6 @@ footer{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-
 
 .index-social-links li a i:hover{
     color: #e84610;
