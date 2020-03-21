@@ -289,9 +289,7 @@ footer{
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
-    background-color: #e84610;
-}
+
 
 .index-social-links li a i:hover{
     color: #e84610;
