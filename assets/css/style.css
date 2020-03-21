@@ -174,7 +174,7 @@ footer{
     min-height: 120px;
 }
 
-.cv-pdf i{
+ .cv-pdf i{
     font-size: 18px;
     color: #fafafa;
     text-align: center;
@@ -188,7 +188,6 @@ footer{
 .cv-pdf i:hover{
     color: #e84610;
 }
-
 .social-links{
     padding-bottom: 15px;
 }
@@ -228,3 +227,37 @@ footer{
     margin-bottom: 15px;
 }
 
+/*------------------------------------------------------Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .key .value{
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .key .value p{
+    margin: 0;
+}
+
+.personal-info-item .key{
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p{
+    font-weight: 700;
+}
+
+.personal-info-item .value{
+    position: relative;
+    width: 60%;
+}
