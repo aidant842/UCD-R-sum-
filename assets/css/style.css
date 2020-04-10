@@ -1,44 +1,76 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto::100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*------------------------------------------------------Colours */
+/*--------------------------------------------Colors*/
 
-.bg-color-name-title{
+.bg-color-name-title {
     background-color: #676767;
 }
 
-.ui-menu-color-home{
-    background-color: #e67e22;
+.bg-color-three-reasons {
+    background-color: #ffffff;
 }
 
-.ui-menu-color-resume{
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
     background-color: #9b59b6;
 }
 
-.ui-menu-color-contact{
-    background-color: #3498db;
+.bg-color-contact {
+    background-color: #ffffff;
 }
 
-.ui-menu-color-download{
-    background-color: #525252;
+.bg-color-conferences {
+    background-color: #f4f4f4;
 }
 
-.bg-color-three-reasons{
-    background-color: #fff;
+.bg-color-groups {
+    background-color: #ffffff;
 }
 
-.bg-color-personal-info{
+.ui-menu-color-home {
     background-color: #e67e22;
 }
 
-.bg-color-work-history{
-    background-color: #9b59b9
+.ui-menu-color-resume {
+    background-color: #9b59b6;
 }
 
-.bg-color-contact{
+.ui-menu-color-contact {
     background-color: #3498db;
 }
 
-/*------------------------------------------------------Special margins/paddings/text */
+.ui-menu-color-download {
+    background-color: #d9a81d;
+}
+
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
+
+/*--------------------------------------------Special Paddings/Margins/Text*/
 
 h1,
 h2,
@@ -47,49 +79,42 @@ h4 {
     margin: 0;
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
-.general-sub{
+.general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
 }
 
-.row-table{
+
+.row-table {
     display: table;
 }
 
-.section-column{
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
 .history-heading,
-.section-heading{
+.section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-    color: #fafafa;
 }
 
 
-/*------------------------------------------------------Heading */
+/*--------------------------------------------Heading*/
 
-header{
+header {
     margin: 0;
 }
 
-.heading{
+.heading {
     margin-left: 50px;
-
 }
 
 .logo {
@@ -103,7 +128,7 @@ header{
     -webkit-transition: all .5s ease-in-out;
 }
 
-.name{
+.name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
@@ -111,7 +136,7 @@ header{
     color: #ffffff;
 }
 
-.title{
+.title {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
@@ -120,44 +145,36 @@ header{
     color: #ffffff;
 }
 
-.list-inline-item:not(:last-child){
+#nav {
     margin: 0;
 }
 
-.menucontainer{
-    font-size: 0;
-}
-
-#nav{
-    margin: 0;
-}
-
-#nav li{
-    font-size: 14px;
+#nav li {
     padding: 0;
 }
 
-.menuitem{
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menuitem a{
+.menuitem a {
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     height: 120px;
 }
 
-.menuitem a i{
+
+.menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menuitem span{
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -168,56 +185,44 @@ header{
     letter-spacing: 2px;
 }
 
-/*------------------------------------------------------Hover.css */
+
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background-color:rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
 
-/*------------------------------------------------------Footer */
+/*--------------------------------------------Footer*/
 
-footer{
+footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
+    margin: 0;
 }
 
- .index-cv-pdf i,
- .resume-cv-pdf i,
- .contact-cv-pdf i{
-    font-size: 18px;
+footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
+    font-size: 18px;
     padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.index-cv-pdf i:hover{
-    color: #e84610;
-}
-
-.resume-cv-pdf i:hover{
-    color: #9b59b6;
-}
-
-.contact-cv-pdf i:hover{
-    color: #3498db;
-}
-
-.index-social-links,
-.resume-social-links,
-.contact-social-links{
+.social-links {
     padding-bottom: 15px;
 }
 
-.index-social-links li a i,
-.resume-social-links li a i,
-.contact-social-links li a i{
+.social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -226,53 +231,43 @@ footer{
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background-color: #8f8f8f;
+    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.index-social-links li a i:hover{
-    color: #e84610;
+.social-links li a i:hover {
+    background: #e84610;
 }
 
-.resume-social-links li a i:hover{
-    color:#9b59b6;
+#footer-details {
+    margin: 20px;
 }
 
-.contact-social-links li a i:hover{
-    color: #3498db;
-}
+/*--------------------------------------------Three Reasons*/
 
-#footer-details{
-    padding: 20px;
-}
-
-/*------------------------------------------------------Three Reasons */
-
-.three-reasons-icon{
+.three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
 }
 
-.three-reasons-heading{
+.three-reasons-heading {
     margin-bottom: 15px;
 }
 
-/*------------------------------------------------------Personal Info */
+/*--------------------------------------------Personal Info*/
 
-.personal-info-item{
+.personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
-    color: #fafafa;
 }
 
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
-    display: inline-block;
 }
 
 .personal-info-item .key p,
@@ -281,6 +276,7 @@ footer{
 }
 
 .personal-info-item .key {
+    display: inline-block;
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -292,145 +288,122 @@ footer{
 }
 
 .personal-info-item .value {
+    display: inline-block;
     position: relative;
     width: 60%;
 }
 
-/*------------------------------------------------------Skills */
+/*--------------------------------------------Skills*/
 
-.progress{
+.progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;
 }
 
-.progress-type{
+.progress-type {
     position: absolute;
-    left: 0;
+    left: 0px;
     font-weight: 400;
-    padding: 4px 30px 4px 10px;
+    padding: 3px 30px 2px 10px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-.progress-section{
+
+.progress-section {
     margin: 40px 20px;
 }
 
-.resume-icon{
-    font-size: 26px;
-    color: #9b59b9
-}
 
-/*------------------------------------------------------Work History */
+/*--------------------------------------------Work History*/
 
-.history-heading{
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
-.timeline-item{
+.timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
 }
 
-.timeline-item p{
+.timeline-item p {
     padding: 0;
     margin: 0;
 }
 
-.timeline-item::before{
-    /* attr short for attribute */
+.timeline-item::before {
     content: attr(data-dates);
     position: absolute;
-    left: 2.5mem;
+    left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo" sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em;
     padding: 0;
     margin: 0;
 }
 
-.timeline-item::after{
+.timeline-item::after {
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.6em;
+    top: 2.4em;
     position: absolute;
     left: -6px;
-    border-radius: 12px; /* to make circle, either put radius to the same as the width and height or assign to 50% */
-    content: '';    /* no content, empty coloured circle */
-    background-color: #fafafa;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
 }
 
-.history-items{
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
     margin-bottom: 30px;
 }
 
-/*------------------------------------------------------Contact Form */
+/*--------------------------------------------Contact*/
 
-.contact-heading{
-    font-family: "Exo" sans-serif;
+.contact-heading {
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
-    color: #fafafa;
 }
 
-.contact-content{
-    color: #fafafa
-}
 
-.center-form{
+.center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
 
-
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
     background-color: #e84610;
+    color: #fafafa;
 }
 
-input.transparent-bg{
-       background-color:rgba(0,0,0,0.25) !important;
-       border: 1px solid #a5a5a5;
-
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
 }
 
-textarea.transparent-bg{
-       background-color:rgba(0,0,0,0.25) !important;
-       border: 1px solid #a5a5a5;
-
-}
-
- .input-color{
-    color: #fafafa !important;
-}
-
-.input-color::placeholder{
-    color: #fafafa !important;
-}
-
-.form-control::placeholder{
-    color: #fafafa !important;
-} 
- 
-
-/*------------------------------------------------------Media Queries */
+/*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
-    .center-form{
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
-}
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
